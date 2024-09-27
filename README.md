@@ -3,14 +3,16 @@
 ## Build Docker Image
         docker build -t fetch .
 
-## Run the Fetch Website Function
+## Section 1:  Run the Fetch Website Function
                   docker run fetch <...>
         Example : docker run fetch https://www.google.com https://autify.com
 
-## Run the Fetch MetaData Function
+## Section 2: Run the Fetch MetaData Function ( including local mirror )
 
                   docker run fetch --metadata <...>
         Example : docker run fetch --metadata https://www.google.com https://autify.com
 
 ## Output Directory 
         /app/output
+
+
