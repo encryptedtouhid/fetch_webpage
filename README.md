@@ -1,7 +1,7 @@
 # Fetch Web Pages CLI
 
 ## Build Docker Image
-docker build -t fetch_webpage .
+        docker build -t fetch_webpage .
 
 ## Run the Fetch Website Function
                   docker run fetcher-app <...>
